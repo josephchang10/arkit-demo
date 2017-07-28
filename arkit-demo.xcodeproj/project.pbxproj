@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7C4234AB1F2AE0D300E21B40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4234AA1F2AE0D300E21B40 /* AppDelegate.swift */; };
-		7C4234AD1F2AE0D300E21B40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4234AC1F2AE0D300E21B40 /* ViewController.swift */; };
 		7C4234B01F2AE0D300E21B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4234AE1F2AE0D300E21B40 /* Main.storyboard */; };
 		7C4234B21F2AE0D300E21B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4234B11F2AE0D300E21B40 /* Assets.xcassets */; };
 		7C4234B51F2AE0D300E21B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4234B31F2AE0D300E21B40 /* LaunchScreen.storyboard */; };
 		7C4234C01F2AE0D300E21B40 /* arkit_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4234BF1F2AE0D300E21B40 /* arkit_demoTests.swift */; };
 		7C4234CB1F2AE0D300E21B40 /* arkit_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4234CA1F2AE0D300E21B40 /* arkit_demoUITests.swift */; };
+		7C4234D91F2AE10F00E21B40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4234D81F2AE10F00E21B40 /* HomeViewController.swift */; };
+		7C4234DD1F2AE45B00E21B40 /* SimpleShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4234DB1F2AE45B00E21B40 /* SimpleShapeViewController.swift */; };
+		7C4234DE1F2AE45B00E21B40 /* SimpleShapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C4234DC1F2AE45B00E21B40 /* SimpleShapeViewController.xib */; };
+		7C7A786A1F2AE8290090E7DA /* NodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A78691F2AE8290090E7DA /* NodeGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		7C4234A71F2AE0D300E21B40 /* arkit-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arkit-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4234AA1F2AE0D300E21B40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C4234AC1F2AE0D300E21B40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C4234AF1F2AE0D300E21B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C4234B11F2AE0D300E21B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C4234B41F2AE0D300E21B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		7C4234C61F2AE0D300E21B40 /* arkit-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arkit-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4234CA1F2AE0D300E21B40 /* arkit_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkit_demoUITests.swift; sourceTree = "<group>"; };
 		7C4234CC1F2AE0D300E21B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4234D81F2AE10F00E21B40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7C4234DB1F2AE45B00E21B40 /* SimpleShapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleShapeViewController.swift; sourceTree = "<group>"; };
+		7C4234DC1F2AE45B00E21B40 /* SimpleShapeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleShapeViewController.xib; sourceTree = "<group>"; };
+		7C7A78691F2AE8290090E7DA /* NodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,13 @@
 			isa = PBXGroup;
 			children = (
 				7C4234AA1F2AE0D300E21B40 /* AppDelegate.swift */,
-				7C4234AC1F2AE0D300E21B40 /* ViewController.swift */,
 				7C4234AE1F2AE0D300E21B40 /* Main.storyboard */,
 				7C4234B11F2AE0D300E21B40 /* Assets.xcassets */,
 				7C4234B31F2AE0D300E21B40 /* LaunchScreen.storyboard */,
 				7C4234B61F2AE0D300E21B40 /* Info.plist */,
+				7C4234D81F2AE10F00E21B40 /* HomeViewController.swift */,
+				7C4234DA1F2AE44100E21B40 /* Demos */,
+				7C7A78681F2AE8050090E7DA /* Utilities */,
 			);
 			path = "arkit-demo";
 			sourceTree = "<group>";
@@ -123,6 +131,23 @@
 				7C4234CC1F2AE0D300E21B40 /* Info.plist */,
 			);
 			path = "arkit-demoUITests";
+			sourceTree = "<group>";
+		};
+		7C4234DA1F2AE44100E21B40 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				7C4234DB1F2AE45B00E21B40 /* SimpleShapeViewController.swift */,
+				7C4234DC1F2AE45B00E21B40 /* SimpleShapeViewController.xib */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		7C7A78681F2AE8050090E7DA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7C7A78691F2AE8290090E7DA /* NodeGenerator.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4234DE1F2AE45B00E21B40 /* SimpleShapeViewController.xib in Resources */,
 				7C4234B51F2AE0D300E21B40 /* LaunchScreen.storyboard in Resources */,
 				7C4234B21F2AE0D300E21B40 /* Assets.xcassets in Resources */,
 				7C4234B01F2AE0D300E21B40 /* Main.storyboard in Resources */,
@@ -256,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4234AD1F2AE0D300E21B40 /* ViewController.swift in Sources */,
 				7C4234AB1F2AE0D300E21B40 /* AppDelegate.swift in Sources */,
+				7C4234DD1F2AE45B00E21B40 /* SimpleShapeViewController.swift in Sources */,
+				7C4234D91F2AE10F00E21B40 /* HomeViewController.swift in Sources */,
+				7C7A786A1F2AE8290090E7DA /* NodeGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
