@@ -53,6 +53,7 @@
 		7C4234DB1F2AE45B00E21B40 /* SimpleShapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleShapeViewController.swift; sourceTree = "<group>"; };
 		7C4234DC1F2AE45B00E21B40 /* SimpleShapeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleShapeViewController.xib; sourceTree = "<group>"; };
 		7C7A78691F2AE8290090E7DA /* NodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeGenerator.swift; sourceTree = "<group>"; };
+		7C7A786B1F2AF9D40090E7DA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		7C42349E1F2AE0D300E21B40 = {
 			isa = PBXGroup;
 			children = (
+				7C7A786B1F2AF9D40090E7DA /* README.md */,
 				7C4234A91F2AE0D300E21B40 /* arkit-demo */,
 				7C4234BE1F2AE0D300E21B40 /* arkit-demoTests */,
 				7C4234C91F2AE0D300E21B40 /* arkit-demoUITests */,
